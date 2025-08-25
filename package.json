@@ -1,0 +1,35 @@
+{
+  "name": "pwa_backend",
+  "version": "1.0.0",
+  "description": "pwa means progressive web app that can function when user is offline ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/sahilkumar-69/Rwa_Backend.git"
+  },
+  "keywords": [
+    "backend",
+    "pwa",
+    "node.js",
+    "javaScript"
+  ],
+  "author": "dev.sahilkumar-69",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cloudinary": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.2",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10"
+  }
+}
