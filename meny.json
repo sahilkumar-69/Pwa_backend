@@ -4,654 +4,729 @@
     "location": "Downtown City Center",
     "contact": "+91-9876543210",
     "menu": {
-      "breakfast": [
-        {
-          "id": 1,
-          "name": "Masala Dosa",
-          "cuisine": "South Indian",
-          "description": "Crispy rice crepe with spiced potato filling served with chutney and sambar.",
-          "price": 120,
-          "availability": true,
-          "spice_level": "Medium",
-          "veg": true,
-          "rating": 4.6,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9tXNH_xCEYOU9wjkNFLKfCHUf1mvc8QmR4g&s",
-            "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?w=600",
-            "https://images.unsplash.com/photo-1631452180519-c014fe7622eb?w=600"
-          ]
-        },
-        {
-          "id": 2,
-          "name": "Idli Sambar",
-          "cuisine": "South Indian",
-          "description": "Steamed rice cakes served with sambar and coconut chutney.",
-          "price": 90,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.5,
-          "images": [
-            "https://i0.wp.com/chaitrascreations.com/wp-content/uploads/2020/05/IMG_1821-scaled.jpg?fit=2560%2C1707&ssl=1",
-            "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?w=600",
-            "https://images.unsplash.com/photo-1631452180519-c014fe7622eb?w=600"
-          ]
-        },
-        {
-          "id": 3,
-          "name": "Upma",
-          "cuisine": "South Indian",
-          "description": "Savory semolina porridge cooked with vegetables and spices.",
-          "price": 80,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.3,
-          "images": [
-            "https://media.istockphoto.com/id/1488737992/photo/upma-recipe-suji-ka-upma-rava-upma-with-red-and-coconut-chutney.jpg?s=612x612&w=0&k=20&c=dGTIRLT4c7XdC8xAqkumyuURqMAy3HNQccNjEQT3wmU=",
-            "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?w=600",
-            "https://images.unsplash.com/photo-1631452180519-c014fe7622eb?w=600"
-          ]
-        },
-        {
-          "id": 4,
-          "name": "Aloo Paratha",
-          "cuisine": "North Indian",
-          "description": "Stuffed wheat flatbread with spiced potato filling, served with curd.",
-          "price": 100,
-          "availability": true,
-          "spice_level": "Medium",
-          "veg": true,
-          "rating": 4.4,
-          "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Aloo_Paratha_also_known_as_Batatay_Jo_Phulko.jpg/960px-Aloo_Paratha_also_known_as_Batatay_Jo_Phulko.jpg",
-            "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?w=600",
-            "https://images.unsplash.com/photo-1631452180519-c014fe7622eb?w=600"
-          ]
-        },
-        {
-          "id": 5,
-          "name": "Poha",
-          "cuisine": "Maharashtrian",
-          "description": "Flattened rice cooked with onions, peanuts and spices.",
-          "price": 70,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.2,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSbWRcPzYN8rkcLNtVwN3osFcFlMc7ij6ZA&s",
-            "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?w=600",
-            "https://images.unsplash.com/photo-1631452180519-c014fe7622eb?w=600"
-          ]
-        },
-        {
-          "id": 6,
-          "name": "Chole Bhature",
-          "cuisine": "North Indian",
-          "description": "Spicy chickpeas served with fried bread.",
-          "price": 150,
-          "availability": true,
-          "spice_level": "Hot",
-          "veg": true,
-          "rating": 4.7,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKphXpu74P3JRXpizcXK9RLrS9UiKsz7E3Ow&s",
-            "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?w=600",
-            "https://images.unsplash.com/photo-1631452180519-c014fe7622eb?w=600"
-          ]
-        },
-        {
-          "id": 7,
-          "name": "Pancakes",
-          "cuisine": "American",
-          "description": "Fluffy pancakes served with maple syrup.",
-          "price": 180,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.5,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB5Ra2utclWoPBEP-_ROifpOd6BKVbUQ6Kvg&s",
-            "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?w=600",
-            "https://images.unsplash.com/photo-1631452180519-c014fe7622eb?w=600"
-          ]
-        },
-        {
-          "id": 8,
-          "name": "French Toast",
-          "cuisine": "Continental",
-          "description": "Bread soaked in egg batter and fried, served with honey.",
-          "price": 160,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": false,
-          "rating": 4.3,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4xh6Lso5NSB61Jq2xtrPO6oSoXM_1uyJ6uQ&s",
-            "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?w=600",
-            "https://images.unsplash.com/photo-1631452180519-c014fe7622eb?w=600"
-          ]
-        },
-        {
-          "id": 9,
-          "name": "Omelette",
-          "cuisine": "Continental",
-          "description": "Fluffy omelette with cheese and veggies.",
-          "price": 120,
-          "availability": true,
-          "spice_level": "Medium",
-          "veg": false,
-          "rating": 4.4,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTbnh5a6QOXaIR6FTPQ_XkvuwmZbwvTmuiqQ&s",
-            "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?w=600",
-            "https://images.unsplash.com/photo-1631452180519-c014fe7622eb?w=600"
-          ]
-        },
-        {
-          "id": 10,
-          "name": "English Breakfast",
-          "cuisine": "Continental",
-          "description": "Eggs, bacon, toast, baked beans and hash browns.",
-          "price": 250,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": false,
-          "rating": 4.6,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEu3oefeB1Qy6nzcqlAwuHqnpgbaary_NoRA&s",
-            "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?w=600",
-            "https://images.unsplash.com/photo-1631452180519-c014fe7622eb?w=600"
-          ]
-        }
-      ],
-      "beverages": [
-        {
-          "id": 11,
-          "name": "Masala Chai",
-          "cuisine": "Indian",
-          "description": "Strong tea brewed with milk and aromatic spices.",
-          "price": 40,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.8,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxF6tvKlJCFR4gAuhac7s45byG3BoKtjlXA&s",
-            "https://images.unsplash.com/photo-1629456779956-e8f086cb9cdf?w=600",
-            "https://images.unsplash.com/photo-1629456779966-8c231852c137?w=600"
-          ]
-        },
-        {
-          "id": 12,
-          "name": "Cold Coffee",
-          "cuisine": "Continental",
-          "description": "Chilled coffee blended with milk and ice cream.",
-          "price": 120,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.5,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRVRoBguuadtGe6y5fvz_Mw9WP9Bc-Q_1Irg&s",
-            "https://images.unsplash.com/photo-1629456779956-e8f086cb9cdf?w=600",
-            "https://images.unsplash.com/photo-1629456779966-8c231852c137?w=600"
-          ]
-        },
-        {
-          "id": 13,
-          "name": "Fresh Lime Soda",
-          "cuisine": "Indian",
-          "description": "Refreshing soda with lemon and mint.",
-          "price": 60,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.4,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdeq_qps9RPo9qKXHRAXH5iQKSQtJO49c7qQ&s",
-            "https://images.unsplash.com-1629456779956-e8f086cb9cdf?w=600",
-            "https://images.unsplash.com/photo-1629456779966-8c231852c137?w=600"
-          ]
-        },
-        {
-          "id": 14,
-          "name": "Mango Smoothie",
-          "cuisine": "Fusion",
-          "description": "Fresh mangoes blended with yogurt and honey.",
-          "price": 140,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.6,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGlIPQ9p5q5aWmeS2XnA-8Q-iS8FuGwGwNIQ&s",
-            "https://images.unsplash.com/photo-1629456779956-e8f086cb9cdf?w=600",
-            "https://images.unsplash.com/photo-1629456779966-8c231852c137?w=600"
-          ]
-        },
-        {
-          "id": 15,
-          "name": "Hot Chocolate",
-          "cuisine": "Continental",
-          "description": "Rich creamy hot chocolate topped with whipped cream.",
-          "price": 150,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.7,
-          "images": [
-            "https://www.sharmispassions.com/wp-content/uploads/2021/04/hot-chocolate-recipe4.jpg",
-            "https://images.unsplash.com/photo-1629456779956-e8f086cb9cdf?w=600",
-            "https://images.unsplash.com/photo-1629456779966-8c231852c137?w=600"
-          ]
-        },
-        {
-          "id": 16,
-          "name": "Espresso",
-          "cuisine": "Italian",
-          "description": "Strong black coffee shot.",
-          "price": 80,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.5,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxdoFNAcppkd8DKoyJ9X1ppnP5pIlScEHJA&s",
-            "https://images.unsplash.com/photo-1629456779956-e8f086cb9cdf?w=600",
-            "https://images.unsplash.com/photo-1629456779966-8c231852c137?w=600"
-          ]
-        },
-        {
-          "id": 17,
-          "name": "Cappuccino",
-          "cuisine": "Italian",
-          "description": "Coffee with steamed milk foam.",
-          "price": 120,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.6,
-          "images": [
-            "https://www.allrecipes.com/thmb/HeqgohF84vo1JDCh2RgFAgoEJoA=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/8624835-how-to-make-a-cappuccino-beauty-4x3-0301-13d55eaad60b42058f24369c292d4ccb.jpg",
-            "https://images.unsplash.com/photo-1629456779956-e8f086cb9cdf?w=600",
-            "https://images.unsplash.com/photo-1629456779966-8c231852c137?w=600"
-          ]
-        },
-        {
-          "id": 18,
-          "name": "Iced Tea",
-          "cuisine": "Continental",
-          "description": "Chilled tea with lemon flavor.",
-          "price": 90,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.3,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRih1fkHV52S93WihECkU7JY6AQe1cRs40YiA&s",
-            "https://images.unsplash.com/photo-1629456779956-e8f086cb9cdf?w=600",
-            "https://images.unsplash.com/photo-1629456779966-8c231852c137?w=600"
-          ]
-        },
-        {
-          "id": 19,
-          "name": "Lassi",
-          "cuisine": "Indian",
-          "description": "Sweet yogurt drink with cardamom.",
-          "price": 70,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.6,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9qOFxcVeCX0PEVsiJNKLzVJXuUmZoqi65iA&s",
-            "https://images.unsplash.com/photo-1629456779956-e8f086cb9cdf?w=600",
-            "https://images.unsplash.com/photo-1629456779966-8c231852c137?w=600"
-          ]
-        },
-        {
-          "id": 20,
-          "name": "Green Tea",
-          "cuisine": "Asian",
-          "description": "Healthy antioxidant-rich tea.",
-          "price": 60,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.4,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv2T_MmWZm3aaMx6kbnjrhFFCn0t2Kh8e8dg&s",
-            "https://images.unsplash.com/photo-1629456779956-e8f086cb9cdf?w=600",
-            "https://images.unsplash.com/photo-1629456779966-8c231852c137?w=600"
-          ]
-        }
-      ],
-      "dinner": [
-        {
-          "id": 21,
-          "name": "Paneer Butter Masala",
-          "cuisine": "North Indian",
-          "description": "Cottage cheese cubes in a rich tomato and butter gravy.",
-          "price": 220,
-          "availability": true,
-          "spice_level": "Medium",
-          "veg": true,
-          "rating": 4.7,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ1kcoiXbqzazXFd2VrQPaheS9YU7Bss8eHw&s",
-            "https://images.unsplash.com/photo-1631515242808-497ff3bfdf1a?w=600",
-            "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600"
-          ]
-        },
-        {
-          "id": 22,
-          "name": "Chicken Biryani",
-          "cuisine": "Hyderabadi",
-          "description": "Fragrant basmati rice cooked with spiced chicken and herbs.",
-          "price": 300,
-          "availability": true,
-          "spice_level": "Hot",
-          "veg": false,
-          "rating": 4.9,
-          "images": [
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWkqR087ENNtJpkaDYBJ5iZx7BeaUJXfjzA&s",
-            "https://images.unsplash.com/photo-1631515242808-497ff3bfdf1a?w=600",
-            "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600"
-          ]
-        },
-        {
-          "id": 23,
-          "name": "Butter Chicken",
-          "cuisine": "North Indian",
-          "description": "Tender chicken cooked in creamy tomato gravy.",
-          "price": 280,
-          "availability": true,
-          "spice_level": "Medium",
-          "veg": false,
-          "rating": 4.8,
-          "images": [
-            "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg",
-            "https://images.unsplash.com/photo-1631515242808-497ff3bfdf1a?w=600",
-            "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600"
-          ]
-        },
-        {
-          "id": 24,
-          "name": "Dal Tadka",
-          "cuisine": "North Indian",
-          "description": "Yellow lentils tempered with ghee and spices.",
-          "price": 150,
-          "availability": true,
-          "spice_level": "Medium",
-          "veg": true,
-          "rating": 4.5,
-          "images": [
-            "https://i.pinimg.com/736x/0e/4b/66/0e4b66aec1508bc544e542e8e0fa42d3.jpg",
-            "https://images.unsplash.com/photo-1631515242808-497ff3bfdf1a?w=600",
-            "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600"
-          ]
-        },
-        {
-          "id": 25,
-          "name": "Veg Fried Rice",
-          "cuisine": "Chinese",
-          "description": "Stir-fried rice with seasonal vegetables and soy sauce.",
-          "price": 180,
-          "availability": true,
-          "spice_level": "Medium",
-          "veg": true,
-          "rating": 4.4,
-          "images": [
-            "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice-500x500.jpg",
-            "https://images.unsplash.com/photo-1631515242808-497ff3bfdf1a?w=600",
-            "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600"
-          ]
-        },
-        {
-          "id": 26,
-          "name": "Chicken Manchurian",
-          "cuisine": "Chinese",
-          "description": "Crispy chicken balls in tangy spicy sauce.",
-          "price": 240,
-          "availability": true,
-          "spice_level": "Hot",
-          "veg": false,
-          "rating": 4.6,
-          "images": [
-            "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600",
-            "https://images.unsplash.com/photo-1631515242808-497ff3bfdf1a?w=600",
-            "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600"
-          ]
-        },
-        {
-          "id": 27,
-          "name": "Margherita Pizza",
-          "cuisine": "Italian",
-          "description": "Classic pizza with tomato, mozzarella and basil.",
-          "price": 350,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.5,
-          "images": [
-            "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600",
-            "https://images.unsplash.com/photo-1631515242808-497ff3bfdf1a?w=600",
-            "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600"
-          ]
-        },
-        {
-          "id": 28,
-          "name": "Pasta Alfredo",
-          "cuisine": "Italian",
-          "description": "Creamy white sauce pasta with mushrooms and herbs.",
-          "price": 320,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.6,
-          "images": [
-            "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600",
-            "https://images.unsplash.com/photo-1631515242808-497ff3bfdf1a?w=600",
-            "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600"
-          ]
-        },
-        {
-          "id": 29,
-          "name": "Tandoori Roti",
-          "cuisine": "North Indian",
-          "description": "Traditional whole wheat flatbread cooked in clay oven.",
-          "price": 25,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.3,
-          "images": [
-            "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600",
-            "https://images.unsplash.com/photo-1631515242808-497ff3bfdf1a?w=600",
-            "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600"
-          ]
-        },
-        {
-          "id": 30,
-          "name": "Fish Curry",
-          "cuisine": "Goan",
-          "description": "Spicy coconut-based curry with fish.",
-          "price": 280,
-          "availability": true,
-          "spice_level": "Hot",
-          "veg": false,
-          "rating": 4.7,
-          "images": [
-            "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600",
-            "https://images.unsplash.com/photo-1631515242808-497ff3bfdf1a?w=600",
-            "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600"
-          ]
-        }
-      ],
-      "desserts": [
-        {
-          "id": 31,
-          "name": "Gulab Jamun",
-          "cuisine": "Indian",
-          "description": "Soft fried milk dumplings soaked in sugar syrup.",
-          "price": 80,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.8,
-          "images": [
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600"
-          ]
-        },
-        {
-          "id": 32,
-          "name": "Rasmalai",
-          "cuisine": "Bengali",
-          "description": "Soft paneer balls soaked in saffron-flavored milk.",
-          "price": 100,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.7,
-          "images": [
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600"
-          ]
-        },
-        {
-          "id": 33,
-          "name": "Kheer",
-          "cuisine": "Indian",
-          "description": "Traditional rice pudding with milk and dry fruits.",
-          "price": 90,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.5,
-          "images": [
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600"
-          ]
-        },
-        {
-          "id": 34,
-          "name": "Ice Cream Sundae",
-          "cuisine": "Continental",
-          "description": "Vanilla ice cream topped with chocolate syrup and nuts.",
-          "price": 120,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.4,
-          "images": [
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600"
-          ]
-        },
-        {
-          "id": 35,
-          "name": "Cheesecake",
-          "cuisine": "American",
-          "description": "Rich and creamy cheesecake with a biscuit base.",
-          "price": 200,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.5,
-          "images": [
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600"
-          ]
-        },
-        {
-          "id": 36,
-          "name": "Chocolate Brownie with Ice Cream",
-          "cuisine": "Continental",
-          "description": "Warm chocolate brownie topped with vanilla ice cream.",
-          "price": 150,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.6,
-          "images": [
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600"
-          ]
-        },
-        {
-          "id": 37,
-          "name": "Fruit Salad with Ice Cream",
-          "cuisine": "Fusion",
-          "description": "Seasonal fresh fruits topped with a scoop of vanilla ice cream.",
-          "price": 120,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.4,
-          "images": [
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600"
-          ]
-        },
-        {
-          "id": 38,
-          "name": "Mango Kulfi",
-          "cuisine": "Indian",
-          "description": "Frozen traditional mango-flavored dessert.",
-          "price": 70,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.5,
-          "images": [
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600"
-          ]
-        },
-        {
-          "id": 39,
-          "name": "Tiramisu",
-          "cuisine": "Italian",
-          "description": "Coffee-flavored Italian layered dessert.",
-          "price": 250,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.6,
-          "images": [
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600"
-          ]
-        },
-        {
-          "id": 40,
-          "name": "Donut",
-          "cuisine": "American",
-          "description": "Fried sweet dough topped with chocolate glaze.",
-          "price": 60,
-          "availability": true,
-          "spice_level": "Mild",
-          "veg": true,
-          "rating": 4.3,
-          "images": [
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600",
-            "https://images.unsplash.com/photo-1625552753716-d5855738d4e1?w=600"
-          ]
-        }
-      ]
+      "breakfast": {
+        "title": "🥞 Breakfast",
+        "items": [
+          {
+            "subcategory": "South Indian",
+            "items": [
+              {
+                "id": 1,
+                "name": "Masala Dosa",
+                "cuisine": "South Indian",
+                "description": "Crispy rice crepe with spiced potato filling served with chutney and sambar.",
+                "price": 120,
+                "availability": true,
+                "spice_level": "Medium",
+                "veg": true,
+                "rating": 4.6,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9tXNH_xCEYOU9wjkNFLKfCHUf1mvc8QmR4g&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9tXNH_xCEYOU9wjkNFLKfCHUf1mvc8QmR4g&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9tXNH_xCEYOU9wjkNFLKfCHUf1mvc8QmR4g&s"
+                ]
+              },
+              {
+                "id": 2,
+                "name": "Idli Sambar",
+                "cuisine": "South Indian",
+                "description": "Steamed rice cakes served with sambar and coconut chutney.",
+                "price": 90,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.5,
+                "images": [
+                  "https://i0.wp.com/chaitrascreations.com/wp-content/uploads/2020/05/IMG_1821-scaled.jpg?fit=2560%2C1707&ssl=1",
+                  "https://i0.wp.com/chaitrascreations.com/wp-content/uploads/2020/05/IMG_1821-scaled.jpg?fit=2560%2C1707&ssl=1",
+                  "https://i0.wp.com/chaitrascreations.com/wp-content/uploads/2020/05/IMG_1821-scaled.jpg?fit=2560%2C1707&ssl=1"
+                ]
+              },
+              {
+                "id": 3,
+                "name": "Upma",
+                "cuisine": "South Indian",
+                "description": "Savory semolina porridge cooked with vegetables and spices.",
+                "price": 80,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.3,
+                "images": [
+                  "https://media.istockphoto.com/id/1488737992/photo/upma-recipe-suji-ka-upma-rava-upma-with-red-and-coconut-chutney.jpg?s=612x612&w=0&k=20&c=dGTIRLT4c7XdC8xAqkumyuURqMAy3HNQccNjEQT3wmU=",
+                  "https://media.istockphoto.com/id/1488737992/photo/upma-recipe-suji-ka-upma-rava-upma-with-red-and-coconut-chutney.jpg?s=612x612&w=0&k=20&c=dGTIRLT4c7XdC8xAqkumyuURqMAy3HNQccNjEQT3wmU=",
+                  "https://media.istockphoto.com/id/1488737992/photo/upma-recipe-suji-ka-upma-rava-upma-with-red-and-coconut-chutney.jpg?s=612x612&w=0&k=20&c=dGTIRLT4c7XdC8xAqkumyuURqMAy3HNQccNjEQT3wmU="
+                ]
+              }
+            ]
+          },
+          {
+            "subcategory": "North Indian",
+            "items": [
+              {
+                "id": 4,
+                "name": "Aloo Paratha",
+                "cuisine": "North Indian",
+                "description": "Stuffed wheat flatbread with spiced potato filling, served with curd.",
+                "price": 100,
+                "availability": true,
+                "spice_level": "Medium",
+                "veg": true,
+                "rating": 4.4,
+                "images": [
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Aloo_Paratha_also_known_as_Batatay_Jo_Phulko.jpg/960px-Aloo_Paratha_also_known_as_Batatay_Jo_Phulko.jpg",
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Aloo_Paratha_also_known_as_Batatay_Jo_Phulko.jpg/960px-Aloo_Paratha_also_known_as_Batatay_Jo_Phulko.jpg",
+                  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Aloo_Paratha_also_known_as_Batatay_Jo_Phulko.jpg/960px-Aloo_Paratha_also_known_as_Batatay_Jo_Phulko.jpg"
+                ]
+              },
+              {
+                "id": 5,
+                "name": "Poha",
+                "cuisine": "Maharashtrian",
+                "description": "Flattened rice cooked with onions, peanuts and spices.",
+                "price": 70,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.2,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSbWRcPzYN8rkcLNtVwN3osFcFlMc7ij6ZA&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSbWRcPzYN8rkcLNtVwN3osFcFlMc7ij6ZA&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSbWRcPzYN8rkcLNtVwN3osFcFlMc7ij6ZA&s"
+                ]
+              },
+              {
+                "id": 6,
+                "name": "Chole Bhature",
+                "cuisine": "North Indian",
+                "description": "Spicy chickpeas served with fried bread.",
+                "price": 150,
+                "availability": true,
+                "spice_level": "Hot",
+                "veg": true,
+                "rating": 4.7,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKphXpu74P3JRXpizcXK9RLrS9UiKsz7E3Ow&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKphXpu74P3JRXpizcXK9RLrS9UiKsz7E3Ow&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKphXpu74P3JRXpizcXK9RLrS9UiKsz7E3Ow&s"
+                ]
+              }
+            ]
+          },
+          {
+            "subcategory": "Continental",
+            "items": [
+              {
+                "id": 7,
+                "name": "Pancakes",
+                "cuisine": "American",
+                "description": "Fluffy pancakes served with maple syrup.",
+                "price": 180,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.5,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB5Ra2utclWoPBEP-_ROifpOd6BKVbUQ6Kvg&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB5Ra2utclWoPBEP-_ROifpOd6BKVbUQ6Kvg&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB5Ra2utclWoPBEP-_ROifpOd6BKVbUQ6Kvg&s"
+                ]
+              },
+              {
+                "id": 8,
+                "name": "French Toast",
+                "cuisine": "Continental",
+                "description": "Bread soaked in egg batter and fried, served with honey.",
+                "price": 160,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": false,
+                "rating": 4.3,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4xh6Lso5NSB61Jq2xtrPO6oSoXM_1uyJ6uQ&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4xh6Lso5NSB61Jq2xtrPO6oSoXM_1uyJ6uQ&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4xh6Lso5NSB61Jq2xtrPO6oSoXM_1uyJ6uQ&s"
+                ]
+              },
+              {
+                "id": 9,
+                "name": "Omelette",
+                "cuisine": "Continental",
+                "description": "Fluffy omelette with cheese and veggies.",
+                "price": 120,
+                "availability": true,
+                "spice_level": "Medium",
+                "veg": false,
+                "rating": 4.4,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTbnh5a6QOXaIR6FTPQ_XkvuwmZbwvTmuiqQ&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTbnh5a6QOXaIR6FTPQ_XkvuwmZbwvTmuiqQ&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTbnh5a6QOXaIR6FTPQ_XkvuwmZbwvTmuiqQ&s"
+                ]
+              },
+              {
+                "id": 10,
+                "name": "English Breakfast",
+                "cuisine": "Continental",
+                "description": "Eggs, bacon, toast, baked beans and hash browns.",
+                "price": 250,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": false,
+                "rating": 4.6,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEu3oefeB1Qy6nzcqlAwuHqnpgbaary_NoRA&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEu3oefeB1Qy6nzcqlAwuHqnpgbaary_NoRA&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEu3oefeB1Qy6nzcqlAwuHqnpgbaary_NoRA&s"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "beverages": {
+        "title": "☕ Beverages",
+        "items": [
+          {
+            "subcategory": "Hot Drinks",
+            "items": [
+              {
+                "id": 11,
+                "name": "Masala Chai",
+                "cuisine": "Indian",
+                "description": "Strong tea brewed with milk and aromatic spices.",
+                "price": 40,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.8,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxF6tvKlJCFR4gAuhac7s45byG3BoKtjlXA&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxF6tvKlJCFR4gAuhac7s45byG3BoKtjlXA&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxF6tvKlJCFR4gAuhac7s45byG3BoKtjlXA&s"
+                ]
+              },
+              {
+                "id": 15,
+                "name": "Hot Chocolate",
+                "cuisine": "Continental",
+                "description": "Rich creamy hot chocolate topped with whipped cream.",
+                "price": 150,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.7,
+                "images": [
+                  "https://www.sharmispassions.com/wp-content/uploads/2021/04/hot-chocolate-recipe4.jpg",
+                  "https://www.sharmispassions.com/wp-content/uploads/2021/04/hot-chocolate-recipe4.jpg",
+                  "https://www.sharmispassions.com/wp-content/uploads/2021/04/hot-chocolate-recipe4.jpg"
+                ]
+              },
+              {
+                "id": 16,
+                "name": "Espresso",
+                "cuisine": "Italian",
+                "description": "Strong black coffee shot.",
+                "price": 80,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.5,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxdoFNAcppkd8DKoyJ9X1ppnP5pIlScEHJA&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxdoFNAcppkd8DKoyJ9X1ppnP5pIlScEHJA&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxdoFNAcppkd8DKoyJ9X1ppnP5pIlScEHJA&s"
+                ]
+              },
+              {
+                "id": 17,
+                "name": "Cappuccino",
+                "cuisine": "Italian",
+                "description": "Coffee with steamed milk foam.",
+                "price": 120,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.6,
+                "images": [
+                  "https://www.allrecipes.com/thmb/HeqgohF84vo1JDCh2RgFAgoEJoA=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/8624835-how-to-make-a-cappuccino-beauty-4x3-0301-13d55eaad60b42058f24369c292d4ccb.jpg",
+                  "https://www.allrecipes.com/thmb/HeqgohF84vo1JDCh2RgFAgoEJoA=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/8624835-how-to-make-a-cappuccino-beauty-4x3-0301-13d55eaad60b42058f24369c292d4ccb.jpg",
+                  "https://www.allrecipes.com/thmb/HeqgohF84vo1JDCh2RgFAgoEJoA=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/8624835-how-to-make-a-cappuccino-beauty-4x3-0301-13d55eaad60b42058f24369c292d4ccb.jpg"
+                ]
+              },
+              {
+                "id": 20,
+                "name": "Green Tea",
+                "cuisine": "Asian",
+                "description": "Healthy antioxidant-rich tea.",
+                "price": 60,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.4,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv2T_MmWZm3aaMx6kbnjrhFFCn0t2Kh8e8dg&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv2T_MmWZm3aaMx6kbnjrhFFCn0t2Kh8e8dg&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv2T_MmWZm3aaMx6kbnjrhFFCn0t2Kh8e8dg&s"
+                ]
+              }
+            ]
+          },
+          {
+            "subcategory": "Cold Drinks",
+            "items": [
+              {
+                "id": 12,
+                "name": "Cold Coffee",
+                "cuisine": "Continental",
+                "description": "Chilled coffee blended with milk and ice cream.",
+                "price": 120,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.5,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRVRoBguuadtGe6y5fvz_Mw9WP9Bc-Q_1Irg&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRVRoBguuadtGe6y5fvz_Mw9WP9Bc-Q_1Irg&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRVRoBguuadtGe6y5fvz_Mw9WP9Bc-Q_1Irg&s"
+                ]
+              },
+              {
+                "id": 13,
+                "name": "Fresh Lime Soda",
+                "cuisine": "Indian",
+                "description": "Refreshing soda with lemon and mint.",
+                "price": 60,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.4,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdeq_qps9RPo9qKXHRAXH5iQKSQtJO49c7qQ&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdeq_qps9RPo9qKXHRAXH5iQKSQtJO49c7qQ&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdeq_qps9RPo9qKXHRAXH5iQKSQtJO49c7qQ&s"
+                ]
+              },
+              {
+                "id": 14,
+                "name": "Mango Smoothie",
+                "cuisine": "Fusion",
+                "description": "Fresh mangoes blended with yogurt and honey.",
+                "price": 140,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.6,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGlIPQ9p5q5aWmeS2XnA-8Q-iS8FuGwGwNIQ&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGlIPQ9p5q5aWmeS2XnA-8Q-iS8FuGwGwNIQ&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGlIPQ9p5q5aWmeS2XnA-8Q-iS8FuGwGwNIQ&s"
+                ]
+              },
+              {
+                "id": 18,
+                "name": "Iced Tea",
+                "cuisine": "Continental",
+                "description": "Chilled tea with lemon flavor.",
+                "price": 90,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.3,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRih1fkHV52S93WihECkU7JY6AQe1cRs40YiA&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRih1fkHV52S93WihECkU7JY6AQe1cRs40YiA&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRih1fkHV52S93WihECkU7JY6AQe1cRs40YiA&s"
+                ]
+              },
+              {
+                "id": 19,
+                "name": "Lassi",
+                "cuisine": "Indian",
+                "description": "Sweet yogurt drink with cardamom.",
+                "price": 70,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.6,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9qOFxcVeCX0PEVsiJNKLzVJXuUmZoqi65iA&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9qOFxcVeCX0PEVsiJNKLzVJXuUmZoqi65iA&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9qOFxcVeCX0PEVsiJNKLzVJXuUmZoqi65iA&s"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "dinner": {
+        "title": "🍛 Dinner",
+        "items": [
+          {
+            "subcategory": "Indian Veg",
+            "items": [
+              {
+                "id": 21,
+                "name": "Paneer Butter Masala",
+                "cuisine": "North Indian",
+                "description": "Cottage cheese cubes in a rich tomato and butter gravy.",
+                "price": 220,
+                "availability": true,
+                "spice_level": "Medium",
+                "veg": true,
+                "rating": 4.7,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ1kcoiXbqzazXFd2VrQPaheS9YU7Bss8eHw&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ1kcoiXbqzazXFd2VrQPaheS9YU7Bss8eHw&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ1kcoiXbqzazXFd2VrQPaheS9YU7Bss8eHw&s"
+                ]
+              },
+              {
+                "id": 24,
+                "name": "Dal Tadka",
+                "cuisine": "North Indian",
+                "description": "Yellow lentils tempered with ghee and spices.",
+                "price": 150,
+                "availability": true,
+                "spice_level": "Medium",
+                "veg": true,
+                "rating": 4.5,
+                "images": [
+                  "https://i.pinimg.com/736x/0e/4b/66/0e4b66aec1508bc544e542e8e0fa42d3.jpg",
+                  "https://i.pinimg.com/736x/0e/4b/66/0e4b66aec1508bc544e542e8e0fa42d3.jpg",
+                  "https://i.pinimg.com/736x/0e/4b/66/0e4b66aec1508bc544e542e8e0fa42d3.jpg"
+                ]
+              },
+              {
+                "id": 25,
+                "name": "Veg Fried Rice",
+                "cuisine": "Chinese",
+                "description": "Stir-fried rice with seasonal vegetables and soy sauce.",
+                "price": 180,
+                "availability": true,
+                "spice_level": "Medium",
+                "veg": true,
+                "rating": 4.4,
+                "images": [
+                  "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice-500x500.jpg",
+                  "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice-500x500.jpg",
+                  "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice-500x500.jpg"
+                ]
+              },
+              {
+                "id": 29,
+                "name": "Tandoori Roti",
+                "cuisine": "North Indian",
+                "description": "Traditional whole wheat flatbread cooked in clay oven.",
+                "price": 25,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.3,
+                "images": [
+                  "https://unsplash.com/photos/brown-bread-on-white-wicker-basket-7iB1Pa_OBL4",
+                  "https://unsplash.com/photos/brown-bread-on-white-wicker-basket-7iB1Pa_OBL4",
+                  "https://unsplash.com/photos/brown-bread-on-white-wicker-basket-7iB1Pa_OBL4"
+                ]
+              }
+            ]
+          },
+          {
+            "subcategory": "Indian Non-Veg",
+            "items": [
+              {
+                "id": 22,
+                "name": "Chicken Biryani",
+                "cuisine": "Hyderabadi",
+                "description": "Fragrant basmati rice cooked with spiced chicken and herbs.",
+                "price": 300,
+                "availability": true,
+                "spice_level": "Hot",
+                "veg": false,
+                "rating": 4.9,
+                "images": [
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWkqR087ENNtJpkaDYBJ5iZx7BeaUJXfjzA&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWkqR087ENNtJpkaDYBJ5iZx7BeaUJXfjzA&s",
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWkqR087ENNtJpkaDYBJ5iZx7BeaUJXfjzA&s"
+                ]
+              },
+              {
+                "id": 23,
+                "name": "Butter Chicken",
+                "cuisine": "North Indian",
+                "description": "Tender chicken cooked in creamy tomato gravy.",
+                "price": 280,
+                "availability": true,
+                "spice_level": "Medium",
+                "veg": false,
+                "rating": 4.8,
+                "images": [
+                  "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg",
+                  "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg",
+                  "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg"
+                ]
+              },
+              {
+                "id": 30,
+                "name": "Fish Curry",
+                "cuisine": "Goan",
+                "description": "Spicy coconut-based curry with fish.",
+                "price": 280,
+                "availability": true,
+                "spice_level": "Hot",
+                "veg": false,
+                "rating": 4.7,
+                "images": [
+                  "https://unsplash.com/photos/a-plate-of-food-Lsiv0oAIfFk",
+                  "https://unsplash.com/photos/a-plate-of-food-Lsiv0oAIfFk",
+                  "https://unsplash.com/photos/a-plate-of-food-Lsiv0oAIfFk"
+                ]
+              }
+            ]
+          },
+          {
+            "subcategory": "Indo-Chinese",
+            "items": [
+              {
+                "id": 26,
+                "name": "Chicken Manchurian",
+                "cuisine": "Chinese",
+                "description": "Crispy chicken balls in tangy spicy sauce.",
+                "price": 240,
+                "availability": true,
+                "spice_level": "Hot",
+                "veg": false,
+                "rating": 4.6,
+                "images": [
+                  "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600",
+                  "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600",
+                  "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600"
+                ]
+              }
+            ]
+          },
+          {
+            "subcategory": "Italian",
+            "items": [
+              {
+                "id": 27,
+                "name": "Margherita Pizza",
+                "cuisine": "Italian",
+                "description": "Classic pizza with tomato, mozzarella and basil.",
+                "price": 350,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.5,
+                "images": [
+                  "https://unsplash.com/photos/pizza-with-cheese-and-pepperoni-A9oUGvA4gR8",
+                  "https://unsplash.com/photos/pizza-with-cheese-and-pepperoni-A9oUGvA4gR8",
+                  "https://unsplash.com/photos/pizza-with-cheese-and-pepperoni-A9oUGvA4gR8"
+                ]
+              },
+              {
+                "id": 28,
+                "name": "Pasta Alfredo",
+                "cuisine": "Italian",
+                "description": "Creamy white sauce pasta with mushrooms and herbs.",
+                "price": 320,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.6,
+                "images": [
+                  "https://unsplash.com/photos/a-plate-of-pasta-971_E-LvZuc",
+                  "https://unsplash.com/photos/a-plate-of-pasta-971_E-LvZuc",
+                  "https://unsplash.com/photos/a-plate-of-pasta-971_E-LvZuc"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "desserts": {
+        "title": "🍰 Desserts",
+        "items": [
+          {
+            "subcategory": "Sweets",
+            "items": [
+              {
+                "id": 31,
+                "name": "Gulab Jamun",
+                "cuisine": "Indian",
+                "description": "Soft fried milk dumplings soaked in sugar syrup.",
+                "price": 80,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.8,
+                "images": [
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k"
+                ]
+              },
+              {
+                "id": 32,
+                "name": "Rasmalai",
+                "cuisine": "Bengali",
+                "description": "Soft paneer balls soaked in saffron-flavored milk.",
+                "price": 100,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.7,
+                "images": [
+                  "https://unsplash.com/photos/a-piece-of-cake-next-to-an-apple-on-a-pink-surface-8xdrzmYxlUI",
+                  "https://unsplash.com/photos/a-piece-of-cake-next-to-an-apple-on-a-pink-surface-8xdrzmYxlUI",
+                  "https://unsplash.com/photos/a-piece-of-cake-next-to-an-apple-on-a-pink-surface-8xdrzmYxlUI"
+                ]
+              },
+              {
+                "id": 33,
+                "name": "Kheer",
+                "cuisine": "Indian",
+                "description": "Traditional rice pudding with milk and dry fruits.",
+                "price": 90,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.5,
+                "images": [
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k"
+                ]
+              },
+              {
+                "id": 38,
+                "name": "Mango Kulfi",
+                "cuisine": "Indian",
+                "description": "Frozen traditional mango-flavored dessert.",
+                "price": 70,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.5,
+                "images": [
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k"
+                ]
+              },
+              {
+                "id": 39,
+                "name": "Tiramisu",
+                "cuisine": "Italian",
+                "description": "Coffee-flavored Italian layered dessert.",
+                "price": 250,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.6,
+                "images": [
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k"
+                ]
+              },
+              {
+                "id": 40,
+                "name": "Donut",
+                "cuisine": "American",
+                "description": "Fried sweet dough topped with chocolate glaze.",
+                "price": 60,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.3,
+                "images": [
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k"
+                ]
+              }
+            ]
+          },
+          {
+            "subcategory": "ice_creams",
+            "items": [
+              {
+                "id": 41,
+                "name": "Vanilla Bean",
+                "description": "Premium vanilla ice cream made with real vanilla beans",
+                "price": 150,
+                "availability": true,
+                "veg": true,
+                "rating": 4.7,
+                "flavor": "Vanilla",
+                "images": [
+                  "https://example.com/vanilla1.jpg",
+                  "https://example.com/vanilla2.jpg"
+                ]
+              },
+              {
+                "id": 42,
+                "name": "Chocolate Fudge",
+                "description": "Rich chocolate ice cream with fudge swirls and chocolate chunks",
+                "price": 160,
+                "availability": true,
+                "veg": true,
+                "rating": 4.8,
+                "flavor": "Chocolate",
+                "images": [
+                  "https://unsplash.com/photos/cupcakes-on-wooden-surface-0zlrKSe1TUs",
+                  "https://unsplash.com/photos/three-cupcakes-on-white-wood-MKBoRZEGeiM",
+                  "https://unsplash.com/photos/cupcake-with-pink-icing-on-top-zEwgRzJJIvk"
+                ]
+              },
+              {
+                "id": 43,
+                "name": "Strawberry Delight",
+                "description": "Creamy strawberry ice cream with real strawberry pieces",
+                "price": 155,
+                "availability": true,
+                "veg": true,
+                "rating": 4.6,
+                "flavor": "Strawberry",
+                "images": [
+                  "https://unsplash.com/photos/a-cup-of-ice-cream-with-strawberries-on-the-side-JK5DX2McMMc",
+                  "https://unsplash.com/photos/ice-cream-cones-in-a-bucket-look-delicious-L0G9jsPZWaI",
+                  "https://unsplash.com/photos/a-cup-of-ice-cream-with-strawberries-on-the-side-JK5DX2McMMc"
+                ]
+              },
+              {
+                "id": 44,
+                "name": "Mint Chocolate Chip",
+                "description": "Refreshing mint ice cream with dark chocolate chips",
+                "price": 165,
+                "availability": true,
+                "veg": true,
+                "rating": 4.5,
+                "flavor": "Mint",
+                "images": [
+                  "https://example.com/mint1.jpg",
+                  "https://example.com/mint2.jpg"
+                ]
+              },
+              {
+                "id": 45,
+                "name": "Butter Pecan",
+                "description": "Buttery ice cream with roasted pecans and caramel swirls",
+                "price": 170,
+                "availability": true,
+                "veg": true,
+                "rating": 4.9,
+                "flavor": "Butter Pecan",
+                "images": [
+                  "https://example.com/butterpecan1.jpg",
+                  "https://example.com/butterpecan2.jpg"
+                ]
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }
