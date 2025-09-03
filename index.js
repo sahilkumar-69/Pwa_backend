@@ -3,6 +3,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import { connectDB } from "./src/database.js";
+import paymentRoute from "./src/routes/payment.routes.js";
 
 dotenv.config({
   path: "./.env",
@@ -25,6 +26,8 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api", Router);
+
+app.use("/payment", paymentRoute);
 
 app.listen(43434, async (e) => {
   if (e) {
