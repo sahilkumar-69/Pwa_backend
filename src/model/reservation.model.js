@@ -9,7 +9,6 @@ const ReservationSchema = new mongoose.Schema({
   time: {
     type: String,
     required: true,
-    enum: ["8.00", "8.30", "9.00", "9.30", "12.00", "12.30", "1.00", "1.30"],
   },
   guests: {
     type: Number,
@@ -35,10 +34,9 @@ const ReservationSchema = new mongoose.Schema({
   additionalInfo: {
     type: String,
   },
-  termsAccepted: {
-    type: Boolean,
+  table: {
+    type: Number,
     required: true,
-    default: false,
   },
   createdAt: {
     type: Date,

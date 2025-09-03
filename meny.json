@@ -3,8 +3,8 @@
     "name": "Tasty Bites",
     "location": "Downtown City Center",
     "contact": "+91-9876543210",
-    "menu": {
-      "breakfast": {
+    "menu": [
+      {
         "title": "🥞 Breakfast",
         "items": [
           {
@@ -21,9 +21,9 @@
                 "veg": true,
                 "rating": 4.6,
                 "images": [
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9tXNH_xCEYOU9wjkNFLKfCHUf1mvc8QmR4g&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9tXNH_xCEYOU9wjkNFLKfCHUf1mvc8QmR4g&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9tXNH_xCEYOU9wjkNFLKfCHUf1mvc8QmR4g&s"
+                  "https://images.unsplash.com/photo-1743517894265-c86ab035adef?q=80&w=1082&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1751560455942-f859f1215826?q=80&w=766&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -37,9 +37,9 @@
                 "veg": true,
                 "rating": 4.5,
                 "images": [
-                  "https://i0.wp.com/chaitrascreations.com/wp-content/uploads/2020/05/IMG_1821-scaled.jpg?fit=2560%2C1707&ssl=1",
-                  "https://i0.wp.com/chaitrascreations.com/wp-content/uploads/2020/05/IMG_1821-scaled.jpg?fit=2560%2C1707&ssl=1",
-                  "https://i0.wp.com/chaitrascreations.com/wp-content/uploads/2020/05/IMG_1821-scaled.jpg?fit=2560%2C1707&ssl=1"
+                  "https://images.unsplash.com/photo-1632104667384-06f58cb7ad44?q=80&w=860&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1680359871322-aabe6b33eff5?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -53,9 +53,9 @@
                 "veg": true,
                 "rating": 4.3,
                 "images": [
-                  "https://media.istockphoto.com/id/1488737992/photo/upma-recipe-suji-ka-upma-rava-upma-with-red-and-coconut-chutney.jpg?s=612x612&w=0&k=20&c=dGTIRLT4c7XdC8xAqkumyuURqMAy3HNQccNjEQT3wmU=",
-                  "https://media.istockphoto.com/id/1488737992/photo/upma-recipe-suji-ka-upma-rava-upma-with-red-and-coconut-chutney.jpg?s=612x612&w=0&k=20&c=dGTIRLT4c7XdC8xAqkumyuURqMAy3HNQccNjEQT3wmU=",
-                  "https://media.istockphoto.com/id/1488737992/photo/upma-recipe-suji-ka-upma-rava-upma-with-red-and-coconut-chutney.jpg?s=612x612&w=0&k=20&c=dGTIRLT4c7XdC8xAqkumyuURqMAy3HNQccNjEQT3wmU="
+                  "https://images.unsplash.com/photo-1630383249896-424e482df921?q=80&w=1280&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1680359873197-c3eb21ec05c0?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1680359871322-aabe6b33eff5?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               }
             ]
@@ -75,8 +75,8 @@
                 "rating": 4.4,
                 "images": [
                   "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Aloo_Paratha_also_known_as_Batatay_Jo_Phulko.jpg/960px-Aloo_Paratha_also_known_as_Batatay_Jo_Phulko.jpg",
-                  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Aloo_Paratha_also_known_as_Batatay_Jo_Phulko.jpg/960px-Aloo_Paratha_also_known_as_Batatay_Jo_Phulko.jpg",
-                  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Aloo_Paratha_also_known_as_Batatay_Jo_Phulko.jpg/960px-Aloo_Paratha_also_known_as_Batatay_Jo_Phulko.jpg"
+                  "https://images.unsplash.com/photo-1740361778894-e5b5b58acbfd?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1586524068358-77d2196875e7?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -90,9 +90,9 @@
                 "veg": true,
                 "rating": 4.2,
                 "images": [
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSbWRcPzYN8rkcLNtVwN3osFcFlMc7ij6ZA&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSbWRcPzYN8rkcLNtVwN3osFcFlMc7ij6ZA&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSbWRcPzYN8rkcLNtVwN3osFcFlMc7ij6ZA&s"
+                  "https://plus.unsplash.com/premium_photo-1699316113748-2f36a5ee6a99?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1701011134345-5460daffaa82?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1625980319455-985e5442c5ae?q=80&w=1175&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -127,9 +127,9 @@
                 "veg": true,
                 "rating": 4.5,
                 "images": [
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB5Ra2utclWoPBEP-_ROifpOd6BKVbUQ6Kvg&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB5Ra2utclWoPBEP-_ROifpOd6BKVbUQ6Kvg&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB5Ra2utclWoPBEP-_ROifpOd6BKVbUQ6Kvg&s"
+                  "https://plus.unsplash.com/premium_photo-1672846027109-e2c91500afef?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1672130779170-c71d34169786?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1672130778996-cf68a261db95?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -143,9 +143,9 @@
                 "veg": false,
                 "rating": 4.3,
                 "images": [
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4xh6Lso5NSB61Jq2xtrPO6oSoXM_1uyJ6uQ&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4xh6Lso5NSB61Jq2xtrPO6oSoXM_1uyJ6uQ&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4xh6Lso5NSB61Jq2xtrPO6oSoXM_1uyJ6uQ&s"
+                  "https://plus.unsplash.com/premium_photo-1663840225558-03ac41c68873?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1663840191028-a24e59ed8a03?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1663840190864-9408a28f88a8?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -159,9 +159,8 @@
                 "veg": false,
                 "rating": 4.4,
                 "images": [
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTbnh5a6QOXaIR6FTPQ_XkvuwmZbwvTmuiqQ&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTbnh5a6QOXaIR6FTPQ_XkvuwmZbwvTmuiqQ&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTbnh5a6QOXaIR6FTPQ_XkvuwmZbwvTmuiqQ&s"
+                  "https://images.unsplash.com/photo-1646579933415-92109f9805df?q=80&w=1057&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1646579933415-92109f9805df?q=80&w=1057&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -175,16 +174,16 @@
                 "veg": false,
                 "rating": 4.6,
                 "images": [
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEu3oefeB1Qy6nzcqlAwuHqnpgbaary_NoRA&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEu3oefeB1Qy6nzcqlAwuHqnpgbaary_NoRA&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEu3oefeB1Qy6nzcqlAwuHqnpgbaary_NoRA&s"
+                  "https://images.unsplash.com/photo-1541329351076-600b0f9fdf28?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1712746785711-84d31909ef3f?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1712746785798-2a46e139c559?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               }
             ]
           }
         ]
       },
-      "beverages": {
+      {
         "title": "☕ Beverages",
         "items": [
           {
@@ -201,9 +200,9 @@
                 "veg": true,
                 "rating": 4.8,
                 "images": [
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxF6tvKlJCFR4gAuhac7s45byG3BoKtjlXA&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxF6tvKlJCFR4gAuhac7s45byG3BoKtjlXA&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNxF6tvKlJCFR4gAuhac7s45byG3BoKtjlXA&s"
+                  "https://images.unsplash.com/photo-1625033405953-f20401c7d848?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1567076260874-9b09f514eea2?q=80&w=611&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1631147139256-3646191d6950?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -217,9 +216,9 @@
                 "veg": true,
                 "rating": 4.7,
                 "images": [
-                  "https://www.sharmispassions.com/wp-content/uploads/2021/04/hot-chocolate-recipe4.jpg",
-                  "https://www.sharmispassions.com/wp-content/uploads/2021/04/hot-chocolate-recipe4.jpg",
-                  "https://www.sharmispassions.com/wp-content/uploads/2021/04/hot-chocolate-recipe4.jpg"
+                  "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1561113871-20b9fe0a5771?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1702615998099-6d8fa6b941a4?q=80&w=631&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -233,9 +232,9 @@
                 "veg": true,
                 "rating": 4.5,
                 "images": [
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxdoFNAcppkd8DKoyJ9X1ppnP5pIlScEHJA&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxdoFNAcppkd8DKoyJ9X1ppnP5pIlScEHJA&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxxdoFNAcppkd8DKoyJ9X1ppnP5pIlScEHJA&s"
+                  "https://plus.unsplash.com/premium_photo-1675435644687-562e8042b9db?q=80&w=749&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1669687924558-386bff1a0469?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1693266634755-c7cc7aa8de58?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -265,9 +264,9 @@
                 "veg": true,
                 "rating": 4.4,
                 "images": [
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv2T_MmWZm3aaMx6kbnjrhFFCn0t2Kh8e8dg&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv2T_MmWZm3aaMx6kbnjrhFFCn0t2Kh8e8dg&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv2T_MmWZm3aaMx6kbnjrhFFCn0t2Kh8e8dg&s"
+                  "https://images.unsplash.com/photo-1534778101976-62847782c213?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1668267292507-33f596344f6a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1670445287762-372300cdcb77?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               }
             ]
@@ -359,7 +358,7 @@
           }
         ]
       },
-      "dinner": {
+      {
         "title": "🍛 Dinner",
         "items": [
           {
@@ -376,9 +375,9 @@
                 "veg": true,
                 "rating": 4.7,
                 "images": [
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ1kcoiXbqzazXFd2VrQPaheS9YU7Bss8eHw&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ1kcoiXbqzazXFd2VrQPaheS9YU7Bss8eHw&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ1kcoiXbqzazXFd2VrQPaheS9YU7Bss8eHw&s"
+                  "https://images.unsplash.com/photo-1701579231378-3726490a407b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1708782340383-eae3335143b4?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1742599361451-3f6608b212f0?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -392,9 +391,9 @@
                 "veg": true,
                 "rating": 4.5,
                 "images": [
-                  "https://i.pinimg.com/736x/0e/4b/66/0e4b66aec1508bc544e542e8e0fa42d3.jpg",
-                  "https://i.pinimg.com/736x/0e/4b/66/0e4b66aec1508bc544e542e8e0fa42d3.jpg",
-                  "https://i.pinimg.com/736x/0e/4b/66/0e4b66aec1508bc544e542e8e0fa42d3.jpg"
+                  "https://images.unsplash.com/photo-1626500154744-e4b394ffea16?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1697155406121-85aac6236000?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1700673590238-a0e3a3795ae2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -408,9 +407,9 @@
                 "veg": true,
                 "rating": 4.4,
                 "images": [
-                  "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice-500x500.jpg",
-                  "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice-500x500.jpg",
-                  "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/12/fried-rice-500x500.jpg"
+                  "https://images.unsplash.com/photo-1664717698774-84f62382613b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1709549774389-e3a443496154?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1742599361552-4acba86acc22?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -424,9 +423,9 @@
                 "veg": true,
                 "rating": 4.3,
                 "images": [
-                  "https://unsplash.com/photos/brown-bread-on-white-wicker-basket-7iB1Pa_OBL4",
-                  "https://unsplash.com/photos/brown-bread-on-white-wicker-basket-7iB1Pa_OBL4",
-                  "https://unsplash.com/photos/brown-bread-on-white-wicker-basket-7iB1Pa_OBL4"
+                  "https://images.unsplash.com/photo-1599232288126-7dbd2127db14?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1687620119488-0970e553052e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1697155406014-04dc649b0953?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               }
             ]
@@ -445,9 +444,9 @@
                 "veg": false,
                 "rating": 4.9,
                 "images": [
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWkqR087ENNtJpkaDYBJ5iZx7BeaUJXfjzA&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWkqR087ENNtJpkaDYBJ5iZx7BeaUJXfjzA&s",
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuWkqR087ENNtJpkaDYBJ5iZx7BeaUJXfjzA&s"
+                  "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?q=80&w=1188&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1634324092526-91f5e878b72f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1603496987674-79600a000f55?q=80&w=685&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -461,9 +460,9 @@
                 "veg": false,
                 "rating": 4.8,
                 "images": [
-                  "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg",
-                  "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg",
-                  "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg"
+                  "https://plus.unsplash.com/premium_photo-1661419883163-bb4df1c10109?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1695931841609-33ecafba99f2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1669742928112-19364a33b530?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -477,9 +476,9 @@
                 "veg": false,
                 "rating": 4.7,
                 "images": [
-                  "https://unsplash.com/photos/a-plate-of-food-Lsiv0oAIfFk",
-                  "https://unsplash.com/photos/a-plate-of-food-Lsiv0oAIfFk",
-                  "https://unsplash.com/photos/a-plate-of-food-Lsiv0oAIfFk"
+                  "https://images.unsplash.com/photo-1654863404432-cac67587e25d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1735988813908-6d38db90c41e?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1708782340377-882559d544fb?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               }
             ]
@@ -491,16 +490,16 @@
                 "id": 26,
                 "name": "Chicken Manchurian",
                 "cuisine": "Chinese",
-                "description": "Crispy chicken balls in tangy spicy sauce.",
+                "description": "Crispyy chicken balls in tangy spicy sauce.",
                 "price": 240,
                 "availability": true,
                 "spice_level": "Hot",
                 "veg": false,
                 "rating": 4.6,
                 "images": [
-                  "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600",
-                  "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600",
-                  "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?w=600"
+                  "https://plus.unsplash.com/premium_photo-1701118441783-d68d6bb12060?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90b1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1701109142323-a1dcb64316e4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1701109142342-dd587224b967?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               }
             ]
@@ -519,9 +518,9 @@
                 "veg": true,
                 "rating": 4.5,
                 "images": [
-                  "https://unsplash.com/photos/pizza-with-cheese-and-pepperoni-A9oUGvA4gR8",
-                  "https://unsplash.com/photos/pizza-with-cheese-and-pepperoni-A9oUGvA4gR8",
-                  "https://unsplash.com/photos/pizza-with-cheese-and-pepperoni-A9oUGvA4gR8"
+                  "https://plus.unsplash.com/premium_photo-1679924471066-dd984e92f395?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1679924470943-36cf7e9dceaa?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -535,16 +534,16 @@
                 "veg": true,
                 "rating": 4.6,
                 "images": [
-                  "https://unsplash.com/photos/a-plate-of-pasta-971_E-LvZuc",
-                  "https://unsplash.com/photos/a-plate-of-pasta-971_E-LvZuc",
-                  "https://unsplash.com/photos/a-plate-of-pasta-971_E-LvZuc"
+                  "https://images.unsplash.com/photo-1662197480393-2a82030b7b83?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1669261881254-e9b79e9baae3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1705412929013-459dc9b90652?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               }
             ]
           }
         ]
       },
-      "desserts": {
+      {
         "title": "🍰 Desserts",
         "items": [
           {
@@ -561,9 +560,9 @@
                 "veg": true,
                 "rating": 4.8,
                 "images": [
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k"
+                  "https://images.unsplash.com/photo-1681476747916-8a8fc7e2001e?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1595608010652-d8bf1103a1c5?q=80&w=659&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1666190092159-3171cf0fbb12?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -577,9 +576,8 @@
                 "veg": true,
                 "rating": 4.7,
                 "images": [
-                  "https://unsplash.com/photos/a-piece-of-cake-next-to-an-apple-on-a-pink-surface-8xdrzmYxlUI",
-                  "https://unsplash.com/photos/a-piece-of-cake-next-to-an-apple-on-a-pink-surface-8xdrzmYxlUI",
-                  "https://unsplash.com/photos/a-piece-of-cake-next-to-an-apple-on-a-pink-surface-8xdrzmYxlUI"
+                  "https://images.unsplash.com/photo-1714799263412-2e0c1f875959?q=80&w=2030&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1614235183711-7a4f4f339265?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -593,27 +591,12 @@
                 "veg": true,
                 "rating": 4.5,
                 "images": [
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k"
+                  "https://images.unsplash.com/photo-1727041423608-c15f1a145cc2?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1744094127440-55d804337a62?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1607235780843-a196b94386b4?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
-              {
-                "id": 38,
-                "name": "Mango Kulfi",
-                "cuisine": "Indian",
-                "description": "Frozen traditional mango-flavored dessert.",
-                "price": 70,
-                "availability": true,
-                "spice_level": "Mild",
-                "veg": true,
-                "rating": 4.5,
-                "images": [
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k"
-                ]
-              },
+
               {
                 "id": 39,
                 "name": "Tiramisu",
@@ -625,9 +608,9 @@
                 "veg": true,
                 "rating": 4.6,
                 "images": [
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k"
+                  "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1536749605762-e7445a2d43ec?q=80&w=717&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1657100335444-862aa1a56025?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -641,9 +624,9 @@
                 "veg": true,
                 "rating": 4.3,
                 "images": [
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k"
+                  "https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1654912912610-4b62730fb5d7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1515208104371-33f379f845a4?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               }
             ]
@@ -661,8 +644,9 @@
                 "rating": 4.7,
                 "flavor": "Vanilla",
                 "images": [
-                  "https://example.com/vanilla1.jpg",
-                  "https://example.com/vanilla2.jpg"
+                  "https://images.unsplash.com/photo-1729462043504-077634af6223?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1695035006293-fce375c6b302?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1695035005971-1aabb8a8e73a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -675,9 +659,9 @@
                 "rating": 4.8,
                 "flavor": "Chocolate",
                 "images": [
-                  "https://unsplash.com/photos/cupcakes-on-wooden-surface-0zlrKSe1TUs",
-                  "https://unsplash.com/photos/three-cupcakes-on-white-wood-MKBoRZEGeiM",
-                  "https://unsplash.com/photos/cupcake-with-pink-icing-on-top-zEwgRzJJIvk"
+                  "https://images.unsplash.com/photo-1591887311330-7de219f362d5?q=80&w=688&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1560252116-0c0d45fffdf3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1642646669923-074199898e3c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -690,9 +674,9 @@
                 "rating": 4.6,
                 "flavor": "Strawberry",
                 "images": [
-                  "https://unsplash.com/photos/a-cup-of-ice-cream-with-strawberries-on-the-side-JK5DX2McMMc",
-                  "https://unsplash.com/photos/ice-cream-cones-in-a-bucket-look-delicious-L0G9jsPZWaI",
-                  "https://unsplash.com/photos/a-cup-of-ice-cream-with-strawberries-on-the-side-JK5DX2McMMc"
+                  "https://plus.unsplash.com/premium_photo-1661427159078-9d85039e99b8?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1724805053611-54c999f9c70c?q=80&w=706&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1750691796390-868b6bc2de76?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -705,8 +689,9 @@
                 "rating": 4.5,
                 "flavor": "Mint",
                 "images": [
-                  "https://example.com/mint1.jpg",
-                  "https://example.com/mint2.jpg"
+                  "https://images.unsplash.com/photo-1562790879-dfde82829db0?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1674595605055-fa617cb4f8d7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1578797595803-04a7776d1ad3?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               },
               {
@@ -719,14 +704,31 @@
                 "rating": 4.9,
                 "flavor": "Butter Pecan",
                 "images": [
-                  "https://example.com/butterpecan1.jpg",
-                  "https://example.com/butterpecan2.jpg"
+                  "https://plus.unsplash.com/premium_photo-1671559020847-2d9ef2efc3c2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1671559020732-25898f0c165a?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://plus.unsplash.com/premium_photo-1671559020858-e1740fe4ff6e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                ]
+              },
+              {
+                "id": 38,
+                "name": "Mango Kulfi",
+                "cuisine": "Indian",
+                "description": "Frozen traditional mango-flavored dessert.",
+                "price": 70,
+                "availability": true,
+                "spice_level": "Mild",
+                "veg": true,
+                "rating": 4.5,
+                "images": [
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
+                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k"
                 ]
               }
             ]
           }
         ]
       }
-    }
+    ]
   }
 }

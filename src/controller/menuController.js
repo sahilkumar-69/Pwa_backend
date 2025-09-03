@@ -2,7 +2,7 @@ import RestaurantMenu from "../model/menu.model.js";
 import { uploadOnCloudinary } from "../utils/Cloudinary.js";
 import Reservation from "../model/reservation.model.js";
 import { User } from "../model/user.model.js";
-// 👉 Add Restaurant with Menu
+//  Add Restaurant with Menu
 export const addRestaurantMenu = async (req, res) => {
   try {
     const { restaurant } = req.body;
@@ -43,7 +43,7 @@ export const addRestaurantMenu = async (req, res) => {
   }
 };
 
-// 👉 Get Full Restaurant Menu (or by category)
+//  Get Full Restaurant Menu (or by category)
 export const getRestaurantMenu = async (req, res) => {
   try {
     const { category } = req.query; // optional query param ?category=breakfast
@@ -118,7 +118,6 @@ export const deleteReservation = async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 };
- 
 
 // ================= SIGNUP =================
 export const signup = async (req, res) => {
@@ -219,3 +218,4 @@ export const login = async (req, res) => {
     return res.status(500).json({ message: "Internal Server Error" });
   }
 };
+ 

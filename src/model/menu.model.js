@@ -1,7 +1,11 @@
 import mongoose from "mongoose";
 
 const menuItemSchema = new mongoose.Schema({
-  id: { type: Number, required: true, unique: true },
+  id: {
+    type: Number,
+    required: true,
+    unique: true,
+  },
   name: { type: String, required: true },
   image: String,
   cuisine: { type: String, required: true },
@@ -23,12 +27,14 @@ const menuSchema = new mongoose.Schema({
     image: String,
     location: { type: String, required: true },
     contact: { type: String, required: true },
-    menu: {
-      breakfast: [menuItemSchema],
-      beverages: [menuItemSchema],
-      dinner: [menuItemSchema],
-      desserts: [menuItemSchema],
-    },
+    menu: [
+      {
+        breakfast: [menuItemSchema],
+        beverages: [menuItemSchema],
+        dinner: [menuItemSchema],
+        desserts: [menuItemSchema],
+      },
+    ],
   },
 });
 
