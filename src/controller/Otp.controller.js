@@ -122,13 +122,12 @@ const sendMailOtp = async (req, res) => {
     res.json({
       message: "Mail sent",
       success: true,
-      saveInDb,
     });
   } catch (error) {
     await mail_model.deleteOne({ mail: email });
     res.status(500).json({
       message: error.message,
-      error,
+  
     });
   }
 };
