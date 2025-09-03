@@ -35,7 +35,7 @@ const getOtp = async (req, res) => {
   } catch (error) {
     await OtpModel.deleteOne({ phone });
     return res.status(500).json({
-      message: error.message,
+      message: "User is",
       error,
       success: false,
     });
