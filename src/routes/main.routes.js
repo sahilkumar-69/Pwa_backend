@@ -10,7 +10,12 @@ import {
   signup,
 } from "../controller/menuController.js";
 import { uploadPhotoOnly } from "../utils/multer.js";
-import { getOtp, verifyOtpController } from "../controller/Otp.controller.js";
+import {
+  getOtp,
+  sendMailOtp,
+  verifyMailOtp,
+  verifyOtpController,
+} from "../controller/Otp.controller.js";
 
 const router = express.Router();
 
@@ -32,8 +37,8 @@ router.delete("/delete-table", deleteReservation);
 
 router.get("/get-table/:id", getReservationById);
 
-router.post("/get-otp", getOtp);
+router.post("/get-otp", sendMailOtp);
 
-router.post("/verify-Otp", verifyOtpController);
+router.post("/verify-Otp", verifyMailOtp);
 
 export default router;
