@@ -75,7 +75,20 @@ export const getRestaurantMenu = async (req, res) => {
 // Create new reservation
 export const createNewReservation = async (req, res) => {
   try {
-    const reservation = new Reservation(req.body);
+
+    const { time, date, people, additionalInfo, terms, email, table, name } =
+      req.body;
+
+    const reservation = new Reservation({
+      time,
+      date,
+      people,
+      additionalInfo,
+      terms,
+      email,
+      table,
+      name,
+    });
     await reservation.save();
     res
       .status(201)

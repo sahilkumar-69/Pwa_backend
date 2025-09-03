@@ -10,7 +10,7 @@ const ReservationSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  guests: {
+  people: {
     type: Number,
     required: true,
     min: 1,
@@ -27,20 +27,21 @@ const ReservationSchema = new mongoose.Schema({
     lowercase: true,
     match: /.+\@.+\..+/,
   },
-  phone: {
-    type: String,
-    required: true,
-  },
+
   additionalInfo: {
     type: String,
   },
   table: {
-    type: Number,
+    type: String,
     required: true,
   },
   createdAt: {
     type: Date,
     default: Date.now,
+  },
+  terms: {
+    type: Boolean,
+    require: true,
   },
 });
 
