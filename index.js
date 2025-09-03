@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
 
 app.use("/api", Router);
 
-app.listen(4343, async (e) => {
+app.listen(43434, async (e) => {
   if (e) {
     console.log(e);
     return process.exit(1);
