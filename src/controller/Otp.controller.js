@@ -33,7 +33,7 @@ const getOtp = async (req, res) => {
 
     res.status(200).json({ message: "OTP sent successfully" });
   } catch (error) {
-    await OtpModel.deleteOne({ phone });
+    // await OtpModel.deleteOne({ phone });
     return res.status(500).json({
       message: "User is",
       error,
