@@ -9,7 +9,7 @@
         "items": [
           {
             "subcategory": "South Indian",
-            "items": [
+            "items": [    
               {
                 "id": 1,
                 "name": "Masala Dosa",
@@ -183,7 +183,7 @@
           }
         ]
       },
-      {
+      {   
         "title": "☕ Beverages",
         "items": [
           {
@@ -484,7 +484,7 @@
             ]
           },
           {
-            "subcategory": "Indo-Chinese",
+            "subcategory": "Indo Chinese",
             "items": [
               {
                 "id": 26,
@@ -632,7 +632,7 @@
             ]
           },
           {
-            "subcategory": "ice_creams",
+            "subcategory": "Ice Creams",
             "items": [
               {
                 "id": 41,
@@ -720,9 +720,9 @@
                 "veg": true,
                 "rating": 4.5,
                 "images": [
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k",
-                  "https://unsplash.com/photos/red-round-fruits-in-black-cooking-pan-uwu2ZLDmX8k"
+                  "https://plus.unsplash.com/premium_photo-1669905375045-990742dc0ca4?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1561588012-17a0e1119c0e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                  "https://images.unsplash.com/photo-1600620710397-27e101681d6d?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 ]
               }
             ]

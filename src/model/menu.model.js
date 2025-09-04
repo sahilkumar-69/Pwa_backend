@@ -1,15 +1,10 @@
 import mongoose from "mongoose";
 
 const menuItemSchema = new mongoose.Schema({
-  id: {
-    type: Number,
-    required: true,
-    unique: true,
-  },
   name: { type: String, required: true },
-  image: String,
-  cuisine: { type: String, required: true },
-  description: { type: String, required: true },
+  images: [{ type: String }],
+  cuisine: { type: String },
+  description: { type: String },
   price: { type: Number, required: true },
   availability: { type: Boolean, default: true },
   spice_level: {
@@ -21,21 +16,21 @@ const menuItemSchema = new mongoose.Schema({
   rating: { type: Number, min: 0, max: 5, default: 0 },
 });
 
-const menuSchema = new mongoose.Schema({
-  restaurant: {
-    name: { type: String, required: true },
-    image: String,
-    location: { type: String, required: true },
-    contact: { type: String, required: true },
-    menu: [
-      {
-        breakfast: [menuItemSchema],
-        beverages: [menuItemSchema],
-        dinner: [menuItemSchema],
-        desserts: [menuItemSchema],
-      },
-    ],
-  },
+const subCategorySchema = new mongoose.Schema({
+  subcategory: { type: String, required: true }, // e.g., "South Indian"
+  items: [menuItemSchema],
 });
 
-export default mongoose.model("RestaurantMenu", menuSchema);
+const menuCategorySchema = new mongoose.Schema({
+  title: { type: String, required: true }, // e.g., "🥞 Breakfast"
+  items: [subCategorySchema], // subcategories inside it
+});
+
+const restaurantSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  location: { type: String, required: true },
+  contact: { type: String, required: true },
+  menu: [menuCategorySchema],
+});
+
+export default mongoose.model("RestaurantMenu", restaurantSchema);
